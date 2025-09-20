@@ -1,17 +1,22 @@
 body {
-background: linear-gradient(135deg, #aa70e9 0%, #2575fc 100%);
+/* background: linear-gradient(135deg, #aa70e9 0%, #2575fc 100%); */
+
+/* background: radial-gradient(circle, rgba(186, 147, 165, 1) 0%, rgba(93, 117, 145, 1) 100%); */
+background-image: url(https://img.freepik.com/free-vector/stream-binary-code-design_53876-100689.jpg?semt=ais_incoming&w=740&q=80);
 min-height: 100vh;
 display: flex;
 align-items: center;
 justify-content: center;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 .card {
 border-radius: 15px;
-box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 .card-title {
-font-weight: 700;
+font-weight: 900;
+font-family: 'Bebas Neue', cursive;
+font-size: 1.5rem;
 color: #020f25;
 }
 #password {
@@ -20,14 +25,21 @@ letter-spacing: 1px;
 }
 button {
 transition: all 0.2s ease;
+font-weight: bold;
+font-family: 'Bebas Neue', cursive;
+background-color: #020f25 !important;
 }
 button:hover {
 transform: scale(1.05);
 }
 .card{
-    background-color: #ffffff;
+    background: #537280;
+background: linear-gradient(90deg, rgb(43, 59, 66) 0%, rgba(8, 61, 29, 1) 50%, rgba(110, 102, 36, 1) 100%);
     border: none;
+    
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 4px 23px rgba(0, 0, 0, 0.1) !important;
 }
+
+
